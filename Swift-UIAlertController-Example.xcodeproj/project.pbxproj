@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		179D063B19DA4381004EAE30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179D063A19DA4381004EAE30 /* AppDelegate.swift */; };
+		179D063D19DA4381004EAE30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179D063C19DA4381004EAE30 /* ViewController.swift */; };
+		179D064019DA4381004EAE30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 179D063E19DA4381004EAE30 /* Main.storyboard */; };
+		179D064219DA4381004EAE30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179D064119DA4381004EAE30 /* Images.xcassets */; };
+		179D064519DA4381004EAE30 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 179D064319DA4381004EAE30 /* LaunchScreen.xib */; };
+		179D065119DA4381004EAE30 /* Swift_UIAlertController_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179D065019DA4381004EAE30 /* Swift_UIAlertController_ExampleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		179D064B19DA4381004EAE30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 179D062D19DA4381004EAE30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 179D063419DA4381004EAE30;
+			remoteInfo = "Swift-UIAlertController-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		179D063519DA4381004EAE30 /* Swift-UIAlertController-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-UIAlertController-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		179D063919DA4381004EAE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		179D063A19DA4381004EAE30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		179D063C19DA4381004EAE30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		179D063F19DA4381004EAE30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		179D064119DA4381004EAE30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		179D064419DA4381004EAE30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		179D064A19DA4381004EAE30 /* Swift-UIAlertController-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-UIAlertController-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		179D064F19DA4381004EAE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		179D065019DA4381004EAE30 /* Swift_UIAlertController_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_UIAlertController_ExampleTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		179D063219DA4381004EAE30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179D064719DA4381004EAE30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		179D062C19DA4381004EAE30 = {
+			isa = PBXGroup;
+			children = (
+				179D063719DA4381004EAE30 /* Swift-UIAlertController-Example */,
+				179D064D19DA4381004EAE30 /* Swift-UIAlertController-ExampleTests */,
+				179D063619DA4381004EAE30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		179D063619DA4381004EAE30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				179D063519DA4381004EAE30 /* Swift-UIAlertController-Example.app */,
+				179D064A19DA4381004EAE30 /* Swift-UIAlertController-ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		179D063719DA4381004EAE30 /* Swift-UIAlertController-Example */ = {
+			isa = PBXGroup;
+			children = (
+				179D063A19DA4381004EAE30 /* AppDelegate.swift */,
+				179D063C19DA4381004EAE30 /* ViewController.swift */,
+				179D063E19DA4381004EAE30 /* Main.storyboard */,
+				179D064119DA4381004EAE30 /* Images.xcassets */,
+				179D064319DA4381004EAE30 /* LaunchScreen.xib */,
+				179D063819DA4381004EAE30 /* Supporting Files */,
+			);
+			path = "Swift-UIAlertController-Example";
+			sourceTree = "<group>";
+		};
+		179D063819DA4381004EAE30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				179D063919DA4381004EAE30 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		179D064D19DA4381004EAE30 /* Swift-UIAlertController-ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				179D065019DA4381004EAE30 /* Swift_UIAlertController_ExampleTests.swift */,
+				179D064E19DA4381004EAE30 /* Supporting Files */,
+			);
+			path = "Swift-UIAlertController-ExampleTests";
+			sourceTree = "<group>";
+		};
+		179D064E19DA4381004EAE30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				179D064F19DA4381004EAE30 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		179D063419DA4381004EAE30 /* Swift-UIAlertController-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179D065419DA4381004EAE30 /* Build configuration list for PBXNativeTarget "Swift-UIAlertController-Example" */;
+			buildPhases = (
+				179D063119DA4381004EAE30 /* Sources */,
+				179D063219DA4381004EAE30 /* Frameworks */,
+				179D063319DA4381004EAE30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-UIAlertController-Example";
+			productName = "Swift-UIAlertController-Example";
+			productReference = 179D063519DA4381004EAE30 /* Swift-UIAlertController-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		179D064919DA4381004EAE30 /* Swift-UIAlertController-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179D065719DA4381004EAE30 /* Build configuration list for PBXNativeTarget "Swift-UIAlertController-ExampleTests" */;
+			buildPhases = (
+				179D064619DA4381004EAE30 /* Sources */,
+				179D064719DA4381004EAE30 /* Frameworks */,
+				179D064819DA4381004EAE30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				179D064C19DA4381004EAE30 /* PBXTargetDependency */,
+			);
+			name = "Swift-UIAlertController-ExampleTests";
+			productName = "Swift-UIAlertController-ExampleTests";
+			productReference = 179D064A19DA4381004EAE30 /* Swift-UIAlertController-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		179D062D19DA4381004EAE30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "ever sense";
+				TargetAttributes = {
+					179D063419DA4381004EAE30 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					179D064919DA4381004EAE30 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 179D063419DA4381004EAE30;
+					};
+				};
+			};
+			buildConfigurationList = 179D063019DA4381004EAE30 /* Build configuration list for PBXProject "Swift-UIAlertController-Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 179D062C19DA4381004EAE30;
+			productRefGroup = 179D063619DA4381004EAE30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				179D063419DA4381004EAE30 /* Swift-UIAlertController-Example */,
+				179D064919DA4381004EAE30 /* Swift-UIAlertController-ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		179D063319DA4381004EAE30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179D064019DA4381004EAE30 /* Main.storyboard in Resources */,
+				179D064519DA4381004EAE30 /* LaunchScreen.xib in Resources */,
+				179D064219DA4381004EAE30 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179D064819DA4381004EAE30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		179D063119DA4381004EAE30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179D063D19DA4381004EAE30 /* ViewController.swift in Sources */,
+				179D063B19DA4381004EAE30 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179D064619DA4381004EAE30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179D065119DA4381004EAE30 /* Swift_UIAlertController_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		179D064C19DA4381004EAE30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 179D063419DA4381004EAE30 /* Swift-UIAlertController-Example */;
+			targetProxy = 179D064B19DA4381004EAE30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		179D063E19DA4381004EAE30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				179D063F19DA4381004EAE30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		179D064319DA4381004EAE30 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				179D064419DA4381004EAE30 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		179D065219DA4381004EAE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		179D065319DA4381004EAE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		179D065519DA4381004EAE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift-UIAlertController-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		179D065619DA4381004EAE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift-UIAlertController-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		179D065819DA4381004EAE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift-UIAlertController-ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-UIAlertController-Example.app/Swift-UIAlertController-Example";
+			};
+			name = Debug;
+		};
+		179D065919DA4381004EAE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift-UIAlertController-ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-UIAlertController-Example.app/Swift-UIAlertController-Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		179D063019DA4381004EAE30 /* Build configuration list for PBXProject "Swift-UIAlertController-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179D065219DA4381004EAE30 /* Debug */,
+				179D065319DA4381004EAE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		179D065419DA4381004EAE30 /* Build configuration list for PBXNativeTarget "Swift-UIAlertController-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179D065519DA4381004EAE30 /* Debug */,
+				179D065619DA4381004EAE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		179D065719DA4381004EAE30 /* Build configuration list for PBXNativeTarget "Swift-UIAlertController-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179D065819DA4381004EAE30 /* Debug */,
+				179D065919DA4381004EAE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 179D062D19DA4381004EAE30 /* Project object */;
+}
