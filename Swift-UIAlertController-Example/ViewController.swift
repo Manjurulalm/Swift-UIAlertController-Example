@@ -50,18 +50,18 @@ class ViewController: UIViewController{
     
     @IBAction func selectBtn(sender: UIButton) {
         let alertController = UIAlertController(title: "Hello!", message: "This is Alert sample.", preferredStyle: .ActionSheet)
-        let otherAction = UIAlertAction(title: "First", style: .Default) {
+        let firstAction = UIAlertAction(title: "First", style: .Default) {
             action in NSLog("Pushed First")
         }
-        let anotherAction = UIAlertAction(title: "Second", style: .Default) {
+        let secondAction = UIAlertAction(title: "Second", style: .Default) {
             action in NSLog("Pushed Second")
         }
         let cancelAction = UIAlertAction(title: "CANCEL", style: .Cancel) {
             action in NSLog("Pushed CANCEL")
         }
         
-        alertController.addAction(otherAction)
-        alertController.addAction(anotherAction)
+        alertController.addAction(firstAction)
+        alertController.addAction(secondAction)
         alertController.addAction(cancelAction)
 
         //For ipad And Univarsal Device
@@ -83,12 +83,12 @@ class ViewController: UIViewController{
         }
         alertController.addAction(cancelAction)
 
-        let nextAction: UIAlertAction = UIAlertAction(title: "Login", style: .Default) { action -> Void in
+        let logintAction: UIAlertAction = UIAlertAction(title: "Login", style: .Default) { action -> Void in
             println("Pushed Login")
             println(inputTextField?.text)
             println(passwordField?.text)
         }
-        alertController.addAction(nextAction)
+        alertController.addAction(logintAction)
         
         alertController.addTextFieldWithConfigurationHandler { textField -> Void in
             inputTextField = textField
