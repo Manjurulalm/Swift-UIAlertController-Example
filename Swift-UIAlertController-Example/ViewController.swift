@@ -36,10 +36,10 @@ class ViewController: UIViewController{
     @IBAction func choiceBtn(sender: UIButton) {
         let alertController = UIAlertController(title: "Hello!", message: "This is Alert sample.", preferredStyle: .Alert)
         let otherAction = UIAlertAction(title: "OK", style: .Default) {
-            action in NSLog("pushed OK!")
+            action in println("pushed OK!")
         }
         let cancelAction = UIAlertAction(title: "CANCEL", style: .Cancel) {
-            action in NSLog("Pushed CANCEL!")
+            action in println("Pushed CANCEL!")
         }
         
         alertController.addAction(otherAction)
@@ -51,13 +51,13 @@ class ViewController: UIViewController{
     @IBAction func selectBtn(sender: UIButton) {
         let alertController = UIAlertController(title: "Hello!", message: "This is Alert sample.", preferredStyle: .ActionSheet)
         let firstAction = UIAlertAction(title: "First", style: .Default) {
-            action in NSLog("Pushed First")
+            action in println("Pushed First")
         }
         let secondAction = UIAlertAction(title: "Second", style: .Default) {
-            action in NSLog("Pushed Second")
+            action in println("Pushed Second")
         }
         let cancelAction = UIAlertAction(title: "CANCEL", style: .Cancel) {
-            action in NSLog("Pushed CANCEL")
+            action in println("Pushed CANCEL")
         }
         
         alertController.addAction(firstAction)
